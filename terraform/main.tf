@@ -14,8 +14,8 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "challenge-devops-coodesh"
-    key    = "terraform-test.tfstate"
+    bucket = "descomplicando-terraform-joaolfms"
+    key    = "terraform-lab-devops.tfstate"
     region = "us-east-1"
   }
 }
